@@ -58,7 +58,18 @@ php -m
 ```
 #### 成功响应
 ```linux
+       _             ____            
+ _ __ | |__  _ __   |  _ \ ___  __ _ 
+| '_ \| '_ \| '_ \  | |_) / __|/ _` |
+| |_) | | | | |_) | |  _ <\__ \ (_| |
+| .__/|_| |_| .__/  |_| \_\___/\__,_|
+|_|         |_|                      
 
+string(29) "l love you! this is rsa test."
+
+string(171) "YlrrEbSczaDzMDTbSrzNP3JHSt0Yo8HRcMh6n95SUOFXtusiRg1HpMi3MFam7wcGxTNR5vRFuAzSKn6FCS1oIEo3aFAbTHz15MDvUW027Q3OvweTGO5DSzYqmxZJdCRUDBFrsiWD77dKRmi/NInUya7pPrBEcOwt6yIcbfSKBv8"
+
+string(29) "l love you! this is rsa test."
 ```
 
 ## 协议
