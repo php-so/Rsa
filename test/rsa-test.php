@@ -61,17 +61,18 @@ $rsa = new Rsa\Rsa($publicKey,$privateKey);
 /**
  * 原始数据
  */
-echo $php_rsa . PHP_EOL;
-var_dump($str);
+$eol = PHP_EOL;
+echo $php_rsa . $eol;
+var_dump($str . $eol);
 
 /**
  * 公钥加密数据
  */
 $str_publicEncrypt = $rsa->publicEncrypt($str);
-var_dump($str_publicEncrypt);
+var_dump($str_publicEncrypt . $eol);
 
 /**
  * 私钥解密数据
  */
 $str_privateDecrypt = $rsa->privateDecrypt($str_publicEncrypt);
-var_dump($str_privateDecrypt);
+var_dump($str_privateDecrypt . $eol);
