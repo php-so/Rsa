@@ -1,3 +1,2 @@
-test/* linguist-vendored
-*.md linguist-language=c
-*.php linguist-language=c
+*.md linguist-language=C
+*.php linguist-language=C
